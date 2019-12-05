@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table thead th td tr{ border: 1px solid #000; }           
+        </style>
+    </head>
+    <body style="display:flex; ">
+        <div style="flex: 3">
+            <h1>Fuzzy Logic</h1>
+            <hr>
+                <input type="file" id="fileInput">
+                <br>
+                <button onclick="uploadDataset()" type="button">Upload dataset</button>
+        </div>
+        <div style="flex: 7">
+            <!-- <h1 id="currentGeneration">Current Generation</h1>
+            <table border="1">
+                <tr>
+                    <thead>
+                        <td>No</td>
+                        <td>x1-value</td>
+                        <td>x2-value</td>
+                        <td>x1-bit</td>
+                        <td>x2-bit</td>
+                        <td>Fitness</td>
+                        <td>Probability</td>
+                    </thead>
+                </tr>
+                <tbody id="generation">
+                </tbody>
+            </table> -->
+        </div>
+    </body>
+    
+    <script src="./script/FuzzyLogic.js"></script>
+    <script src="./script/Utils.js"></script>
+    <script src="./script/CoreNumber.js"></script>
+    <script src="./script/Main.js"></script>
+</html>
